@@ -1,0 +1,22 @@
+{
+  "name": "simpleVersion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.63.0",
+    "puppeteer": "^21.3.6"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.10"
+  }
+}

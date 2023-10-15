@@ -1,0 +1,17 @@
+# fly.toml app configuration file generated for winter-sound-2461 on 2023-10-08T19:43:40+04:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "crawlfinal"
+primary_region = "waw"
+swap_size_mb = 512
+SWAP="true"
+[build]
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = false
+  min_machines_running = 0
+  processes = ["app"]
